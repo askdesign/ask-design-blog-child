@@ -43,6 +43,51 @@
 					"color": "#e6bb30",
 					"name": "Accent 6",
 					"slug": "accent-6"
+				},
+				{
+					"color": "#e9f6f3",
+					"name": "Primary-50",
+					"slug": "custom-primary-50"
+				},
+				{
+					"color": "#d4ede8",
+					"name": "Primary-100",
+					"slug": "custom-primary-100"
+				},
+				{
+					"color": "#a9dbd1",
+					"name": "Primary-200",
+					"slug": "custom-primary-200"
+				},
+				{
+					"color": "#7ec8b9",
+					"name": "Primary-300",
+					"slug": "custom-primary-300"
+				},
+				{
+					"color": "#53b6a2",
+					"name": "Primary-400",
+					"slug": "custom-primary-400"
+				},
+				{
+					"color": "#20836f",
+					"name": "Primary-600",
+					"slug": "custom-primary-600"
+				},
+				{
+					"color": "#186253",
+					"name": "Primary-700",
+					"slug": "custom-primary-700"
+				},
+				{
+					"color": "#104238",
+					"name": "Primary-800",
+					"slug": "custom-primary-800"
+				},
+				{
+					"color": "#08211c",
+					"name": "Primary-900",
+					"slug": "custom-primary-900"
 				}
 			]
 		},
