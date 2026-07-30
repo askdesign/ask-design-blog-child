@@ -16,33 +16,33 @@
 				},
 				{
 					"color": "#28a48b",
-					"name": "Accent 1",
-					"slug": "accent-1"
+					"name": "Primary 500",
+					"slug": "primary-500"
 				},
 				{
 					"color": "#129eca",
-					"name": "Accent 2",
-					"slug": "accent-2"
+					"name": "Secondary 500",
+					"slug": "secondary-500"
 				},
 				{
 					"color": "#50a423",
-					"name": "Accent 3",
-					"slug": "accent-3"
+					"name": "Secondary2 500",
+					"slug": "secondary2-500"
 				},
 				{
 					"color": "#7930e6",
-					"name": "Accent 4",
-					"slug": "accent-4"
+					"name": "Accent 500",
+					"slug": "accent-500"
 				},
 				{
 					"color": "#e66030",
-					"name": "Accent 5",
-					"slug": "accent-5"
+					"name": "Accent2 500",
+					"slug": "accent2-500"
 				},
 				{
 					"color": "#e6bb30",
-					"name": "Accent 6",
-					"slug": "accent-6"
+					"name": "Accent3 500",
+					"slug": "accent3-500"
 				},
 				{
 					"color": "#e9f6f3",
