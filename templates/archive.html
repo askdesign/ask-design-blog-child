@@ -5,7 +5,11 @@
 
 <!-- wp:term-description {"style":{"typography":{"textAlign":"center"}}} /-->
 
-<!-- wp:query {"queryId":85,"query":{"perPage":8,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true,"taxQuery":null,"parents":[]},"metadata":{"patternName":"twentytwentyfive/template-query-loop-photo-blog","name":"Photo blog posts","description":"A list of posts, 3 columns, with only featured images.","categories":["query"]},"align":"wide","layout":{"type":"default"}} -->
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:query {"queryId":85,"query":{"perPage":9,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true,"taxQuery":null,"parents":[]},"metadata":{"patternName":"twentytwentyfive/template-query-loop-photo-blog","name":"Photo blog posts","description":"A list of posts, 3 columns, with only featured images.","categories":["query"]},"align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-query alignwide"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:query-no-results -->
 <!-- wp:paragraph {"style":{"typography":{"textAlign":"center"}}} -->
@@ -17,6 +21,14 @@
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"default"}} -->
 <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)"><!-- wp:post-template {"style":{"spacing":{"blockGap":"var:preset|spacing|50"}},"layout":{"type":"grid","columnCount":null,"minimumColumnWidth":"23rem"}} -->
 <!-- wp:post-featured-image {"isLink":true,"aspectRatio":"1"} /-->
+
+<!-- wp:post-title {"level":1,"isLink":true} /-->
+
+<!-- wp:post-date {"metadata":{"bindings":{"datetime":{"source":"core/post-data","args":{"field":"date"}}}}} /-->
+
+<!-- wp:post-terms {"term":"category","style":{"typography":{"textTransform":"uppercase","letterSpacing":"1.4px"}}} /-->
+
+<!-- wp:post-excerpt {"fontSize":"medium"} /-->
 <!-- /wp:post-template --></div>
 <!-- /wp:group -->
 
