@@ -88,6 +88,231 @@
 					"color": "#08211c",
 					"name": "Primary-900",
 					"slug": "custom-primary-900"
+				},
+				{
+					"color": "#e7f5fa",
+					"name": "Secondary-50",
+					"slug": "custom-secondary-50"
+				},
+				{
+					"color": "#e7f5fa",
+					"name": "Secondary-100",
+					"slug": "custom-secondary-100"
+				},
+				{
+					"color": "#a0d8ea",
+					"name": "Secondary-200",
+					"slug": "custom-secondary-200"
+				},
+				{
+					"color": "#71c5df",
+					"name": "Secondary-300",
+					"slug": "custom-secondary-300"
+				},
+				{
+					"color": "#41b1d5",
+					"name": "Secondary-400",
+					"slug": "custom-secondary-400"
+				},
+				{
+					"color": "#0e7ea2",
+					"name": "Secondary-600",
+					"slug": "custom-secondary-600"
+				},
+				{
+					"color": "#0b5f79",
+					"name": "Secondary-700",
+					"slug": "custom-secondary-700"
+				},
+				{
+					"color": "#073f51",
+					"name": "Secondary-800",
+					"slug": "custom-secondary-800"
+				},
+				{
+					"color": "#042028",
+					"name": "Secondary-900",
+					"slug": "custom-secondary-900"
+				},
+				{
+					"color": "#edf6e9",
+					"name": "secondary-2-50",
+					"slug": "custom-secondary-2-50"
+				},
+				{
+					"color": "#dcedd3",
+					"name": "secondary-2-100",
+					"slug": "custom-secondary-2-100"
+				},
+				{
+					"color": "#b9dba7",
+					"name": "secondary-2-200",
+					"slug": "custom-secondary-2-200"
+				},
+				{
+					"color": "#96c87b",
+					"name": "secondary-2-300",
+					"slug": "custom-secondary-2-300"
+				},
+				{
+					"color": "#73b64f",
+					"name": "secondary-2-400",
+					"slug": "custom-secondary-2-400"
+				},
+				{
+					"color": "#40831c",
+					"name": "secondary-2-600",
+					"slug": "custom-secondary-2-600"
+				},
+				{
+					"color": "#306215",
+					"name": "secondary-2-700",
+					"slug": "custom-secondary-2-700"
+				},
+				{
+					"color": "#20420e",
+					"name": "secondary-2-800",
+					"slug": "custom-secondary-2-800"
+				},
+				{
+					"color": "#102107",
+					"name": "secondary-2-900",
+					"slug": "custom-secondary-2-900"
+				},
+				{
+					"color": "#f2eafc",
+					"name": "accent-50",
+					"slug": "custom-accent-50"
+				},
+				{
+					"color": "#e4d6fa",
+					"name": "accent-100",
+					"slug": "custom-accent-100"
+				},
+				{
+					"color": "#c9acf5",
+					"name": "accent-200",
+					"slug": "custom-accent-200"
+				},
+				{
+					"color": "#af83f0",
+					"name": "accent-300",
+					"slug": "custom-accent-300"
+				},
+				{
+					"color": "#9459eb",
+					"name": "accent-400",
+					"slug": "custom-accent-400"
+				},
+				{
+					"color": "#6126b8",
+					"name": "accent-600",
+					"slug": "custom-accent-600"
+				},
+				{
+					"color": "#491d8a",
+					"name": "accent-700",
+					"slug": "custom-accent-700"
+				},
+				{
+					"color": "#30135c",
+					"name": "accent-800",
+					"slug": "custom-accent-800"
+				},
+				{
+					"color": "#180a2e",
+					"name": "accent-900",
+					"slug": "custom-accent-900"
+				},
+				{
+					"color": "#fcefea",
+					"name": "accent-2-50",
+					"slug": "custom-accent-2-50"
+				},
+				{
+					"color": "#fadfd6",
+					"name": "accent-2-100",
+					"slug": "custom-accent-2-100"
+				},
+				{
+					"color": "#f5bfac",
+					"name": "accent-2-200",
+					"slug": "custom-accent-2-200"
+				},
+				{
+					"color": "#f0a083",
+					"name": "accent-2-300",
+					"slug": "custom-accent-2-300"
+				},
+				{
+					"color": "#eb8059",
+					"name": "accent-2-400",
+					"slug": "custom-accent-2-400"
+				},
+				{
+					"color": "#b84d26",
+					"name": "accent-2-600",
+					"slug": "custom-accent-2-600"
+				},
+				{
+					"color": "#8a3a1d",
+					"name": "accent-2-700",
+					"slug": "custom-accent-2-700"
+				},
+				{
+					"color": "#5c2613",
+					"name": "accent-2-800",
+					"slug": "custom-accent-2-800"
+				},
+				{
+					"color": "#2e130a",
+					"name": "accent-2-900",
+					"slug": "custom-accent-2-900"
+				},
+				{
+					"color": "#fcf8ea",
+					"name": "accent-3-50",
+					"slug": "custom-accent-3-50"
+				},
+				{
+					"color": "#faf1d6",
+					"name": "accent-3-100",
+					"slug": "custom-accent-3-100"
+				},
+				{
+					"color": "#f5e4ac",
+					"name": "accent-3-200",
+					"slug": "custom-accent-3-200"
+				},
+				{
+					"color": "#f0d683",
+					"name": "accent-3-300",
+					"slug": "custom-accent-3-300"
+				},
+				{
+					"color": "#ebc959",
+					"name": "accent-3-400",
+					"slug": "custom-accent-3-400"
+				},
+				{
+					"color": "#b89626",
+					"name": "accent-3-600",
+					"slug": "custom-accent-3-600"
+				},
+				{
+					"color": "#8a701d",
+					"name": "accent-3-700",
+					"slug": "custom-accent-3-700"
+				},
+				{
+					"color": "#5c4b13",
+					"name": "accent-3-800",
+					"slug": "custom-accent-3-800"
+				},
+				{
+					"color": "#2e250a",
+					"name": "accent-3-900",
+					"slug": "custom-accent-3-900"
 				}
 			]
 		},
