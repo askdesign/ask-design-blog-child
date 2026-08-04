@@ -36,5 +36,3 @@ GNU General Public License for more details.
 
 
 ASK Design Blog Child is a child theme of Twenty Twenty-Five (https://wordpress.org/themes/twentytwentyfive/), (C) the WordPress team, [GPLv2 or later](http://www.gnu.org/licenses/gpl-2.0.html)
-
-TEST
