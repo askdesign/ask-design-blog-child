@@ -575,7 +575,7 @@
 				}
 			}
 		},
-		"css": ".wp-block-navigation .wp-block-navigation-item a {\n   padding: .5rem 2.5rem;\n   border: 1px solid transparent;\n}\n\n.wp-block-navigation .wp-block-navigation-item a:hover {\n   border: 1px solid #6c757d;\n   border-radius: .375rem;\n   text-decoration: none;\n}\n\n.page-title, .section-title {\n   font-size: 3rem;\n   color: var(--wp--preset--color--primary-500);\n}\n\n.page.lead.subhd, .page.lead.subhd2, .page.subhd, .page.subhd2 {\n    font-size: 1.5rem;\n    font-family: Lato;\n    font-weight: 700;\n    text-transform: uppercase;\n    color: 495057;\n    margin-bottom: .75rem;\n}",
+		"css": ".wp-block-navigation .wp-block-navigation-item {\n   padding: .5rem 2.5rem;\n   border: 1px solid transparent;\n   border-right: 1px solid #e9ecef;\n}\n\n.wp-block-navigation .wp-block-navigation-item.last {\n   border-right: 0px solid #e9ecef;\n}\n\n.wp-block-navigation .wp-block-navigation-item:hover,\n.wp-block-navigation .wp-block-navigation-item.current-menu-item {\n    border: 1px solid #6c757d;\n    border-radius: .375rem;\n}\n\n\n\n\n.page-title, .section-title {\n   font-size: 3rem;\n   color: var(--wp--preset--color--primary-500);\n}\n\n.page.lead.subhd, .page.lead.subhd2, .page.subhd, .page.subhd2 {\n    font-size: 1.5rem;\n    font-family: Lato;\n    font-weight: 700;\n    text-transform: uppercase;\n    color: 495057;\n    margin-bottom: .75rem;\n}",
 		"elements": {
 			"button": {
 				"color": {
