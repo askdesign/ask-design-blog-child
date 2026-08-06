@@ -415,6 +415,59 @@
 					"fontFamily": "\"Cormorant Garamond\", serif",
 					"name": "Cormorant Garamond",
 					"slug": "cormorant-garamond"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Font Awesome 7 Brands\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/font-awesome-7-brands/font-awesome-7-brands-400-normal.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Font Awesome 7 Brands\"",
+					"name": "Font Awesome 7 Brands",
+					"slug": "font-awesome-7-brands"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Font Awesome 7 Free\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/font-awesome-7-free/font-awesome-7-free-400-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Font Awesome 7 Free\"",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+							"src": [
+								"file:./assets/fonts/font-awesome-7-free/font-awesome-7-free-900-normal.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Font Awesome 7 Free\"",
+					"name": "Font Awesome 7 Free",
+					"slug": "font-awesome-7-free"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Font Awesome v4 Compatibility\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/font-awesome-v4-compatibility/font-awesome-v4-compatibility-400-normal.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Font Awesome v4 Compatibility\"",
+					"name": "Font Awesome v4 Compatibility",
+					"slug": "font-awesome-v-4-compatibility"
 				}
 			]
 		}
