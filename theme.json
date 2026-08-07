@@ -417,37 +417,43 @@
 					"slug": "cormorant-garamond"
 				},
 				{
-  "fontFamily": "\"Font Awesome 7 Free\"",
-  "name": "Font Awesome 7 Free (Regular/Solid)",
-  "slug": "fa-free",
-  "fontFace": [
-    {
-      "fontFamily": "\"Font Awesome 7 Free\"",
-      "fontStyle": "normal",
-      "fontWeight": "400",
-      "src": [ "file:./assets/fontawesome/webfonts/fa-regular-400.woff2" ]
-    },
-    {
-      "fontFamily": "\"Font Awesome 7 Free\"",
-      "fontStyle": "normal",
-      "fontWeight": "900",
-      "src": [ "file:./assets/fontawesome/webfonts/fa-solid-900.woff2" ]
-    }
-  ]
-},
+					"fontFace": [
+						{
+							"fontFamily": "\"Font Awesome 7 Brands\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fontawesome/webfonts/fa-brands-400.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Font Awesome 7 Brands\"",
+					"name": "Font Awesome 7 Brands",
+					"slug": "fa-brands"
+				},
 				{
-  "fontFamily": "\"Font Awesome 7 Brands\"",
-  "name": "Font Awesome 7 Brands",
-  "slug": "fa-brands",
-  "fontFace": [
-    {
-      "fontFamily": "\"Font Awesome 7 Brands\"",
-      "fontStyle": "normal",
-      "fontWeight": "400",
-      "src": [ "file:./assets/fontawesome/webfonts/fa-brands-400.woff2" ]
-    }
-  ]
-}
+					"fontFace": [
+						{
+							"fontFamily": "\"Font Awesome 7 Free\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fontawesome/webfonts/fa-regular-400.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Font Awesome 7 Free\"",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+							"src": [
+								"file:./assets/fontawesome/webfonts/fa-solid-900.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Font Awesome 7 Free\"",
+					"name": "Font Awesome 7 Free (Regular/Solid)",
+					"slug": "fa-free"
+				}
 			]
 		}
 	},
@@ -607,7 +613,7 @@
 				}
 			}
 		},
-		"css": ".wp-block-navigation .wp-block-navigation-item {\n   padding: .5rem 2.5rem;\n   border: 1px solid transparent;\n   border-right: 1px solid #e9ecef;\n}\n\n.wp-block-navigation .wp-block-navigation-item.last {\n   border-right: 0px solid #e9ecef;\n}\n\n.wp-block-navigation .wp-block-navigation-item:hover,\n.wp-block-navigation .wp-block-navigation-item.current-menu-item {\n    border: 1px solid #6c757d;\n    border-radius: .375rem;\n}\n\n.page-title, .section-title {\n   font-size: 3rem;\n   color: var(--wp--preset--color--primary-500);\n}\n\n.page.lead.subhd, .page.lead.subhd2, .page.subhd, .page.subhd2 {\n    font-size: 1.5rem;\n    font-family: Lato;\n    font-weight: 700;\n    text-transform: uppercase;\n    color: 495057;\n    margin-bottom: .75rem;\n}\n\n.wp-block-button__link:hover {\n    color: var(--wp--preset--color--base);\n    background-color: var(--wp--preset--color--accent-500); \n}",
+		"css": ".wp-block-navigation .wp-block-navigation-item {\n   padding: .5rem 2.5rem;\n   border: 1px solid transparent;\n   border-right: 1px solid #e9ecef;\n}\n\n.wp-block-navigation .wp-block-navigation-item.last {\n   border-right: 0px solid #e9ecef;\n}\n\n.wp-block-navigation .wp-block-navigation-item:hover,\n.wp-block-navigation .wp-block-navigation-item.current-menu-item {\n    border: 1px solid #6c757d;\n    border-radius: .375rem;\n}\n\n.navbar2 {\n    background-color: #e9ecef;\n    border-bottom: 1px solid #ced4da;\n}\n\n.wp-block-navigation .wp-block-navigation-item .navbar2 {\n   padding: .5rem 1.25rem;\n   border: 0px solid transparent;\n   border-right: 0px solid #e9ecef;\n}\n\n\n.page-title, .section-title {\n   font-size: 3rem;\n   color: var(--wp--preset--color--primary-500);\n}\n\n.page.lead.subhd, .page.lead.subhd2, .page.subhd, .page.subhd2 {\n    font-size: 1.5rem;\n    font-family: Lato;\n    font-weight: 700;\n    text-transform: uppercase;\n    color: 495057;\n    margin-bottom: .75rem;\n}\n\n.wp-block-button__link:hover {\n    color: var(--wp--preset--color--base);\n    background-color: var(--wp--preset--color--accent-500); \n}",
 		"elements": {
 			"button": {
 				"color": {
