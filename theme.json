@@ -418,33 +418,33 @@
 				},
 				{
   "fontFamily": "\"Font Awesome 7 Free\"",
-  "name": "Font Awesome Free",
-  "slug": "font-awesome",
+  "name": "Font Awesome 7 Free (Regular/Solid)",
+  "slug": "fa-free",
   "fontFace": [
     {
       "fontFamily": "\"Font Awesome 7 Free\"",
       "fontStyle": "normal",
       "fontWeight": "400",
-      "src": [ "file:./assets/fonts/fa-regular-400.woff2" ]
+      "src": [ "file:./assets/fontawesome/webfonts/fa-regular-400.woff2" ]
     },
     {
       "fontFamily": "\"Font Awesome 7 Free\"",
       "fontStyle": "normal",
       "fontWeight": "900",
-      "src": [ "file:./assets/fonts/fa-solid-900.woff2" ]
+      "src": [ "file:./assets/fontawesome/webfonts/fa-solid-900.woff2" ]
     }
   ]
 },
 				{
   "fontFamily": "\"Font Awesome 7 Brands\"",
-  "name": "Font Awesome Brands",
-  "slug": "font-awesome",
+  "name": "Font Awesome 7 Brands",
+  "slug": "fa-brands",
   "fontFace": [
     {
       "fontFamily": "\"Font Awesome 7 Brands\"",
       "fontStyle": "normal",
       "fontWeight": "400",
-      "src": [ "file:./assets/fonts/fa-brands-400.woff2" ]
+      "src": [ "file:./assets/fontawesome/webfonts/fa-brands-400.woff2" ]
     }
   ]
 }
