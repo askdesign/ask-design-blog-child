@@ -1,0 +1,121 @@
+/*
+Theme Name: ASK Design Blog Child
+Theme URI: https://wordpress.org/themes/twentytwentyfive/
+Author: Anne S. Katzeff
+Author URI: https://www.askdesign.biz
+Description: Child Theme based on 2025 Theme
+Requires at least: 7.0
+Tested up to: 7.0
+Requires PHP: 5.7
+Version: 
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Template: twentytwentyfive
+Text Domain: ask-design-blog-child
+Tags: 
+*/
+
+/* Theme customization starts here
+-------------------------------------------------------------- */
+
+/* --- Additional CSS --- */
+
+/* -- navigation -- */
+
+.wp-block-navigation .wp-block-navigation-item {
+   padding: .5rem 2.5rem;
+   border: 1px solid transparent;
+   border-right: 1px solid #e9ecef;
+}
+
+.wp-block-navigation .wp-block-navigation-item.last {
+   border-right: 0px solid #e9ecef;
+}
+
+.wp-block-navigation .wp-block-navigation-item:hover,
+.wp-block-navigation .wp-block-navigation-item.current-menu-item {
+    border: 1px solid #6c757d;
+    border-radius: .375rem;
+}
+
+nav.navbar2 {
+    background-color: #e9ecef;
+    border-bottom: 1px solid #ced4da;
+}
+
+.wp-block-navigation .wp-block-navigation-item.fa-brands,
+.wp-block-navigation .wp-block-navigation-item.fa-brands.last {
+   padding: .5rem 1.25rem;
+   border: 0px solid transparent;
+   border-right: 0px solid #e9ecef;
+}
+
+.wp-block-navigation .wp-block-navigation-item.fa-brands.last {
+   padding: 1rem 1.25rem .5rem 0rem;
+}
+
+.wp-block-navigation .wp-block-navigation-item.fa-brands:hover,
+.wp-block-navigation .wp-block-navigation-item.fa-brands.last:hover {
+   color: #000000;
+}
+
+.social-faa {
+    background: url(../wp-content/uploads/2026/08/faa-logo-240-2025-primary700-e1786043962997.png) no-repeat;
+    background-size: 45%;
+    background-position: center center;
+    margin: 0 .5rem;
+}
+
+.social-faa:hover {
+    background: url(../wp-content/uploads/2026/08/faa-logo-240-2025-black-e1786043973549.png) no-repeat;
+    background-size: 45%;
+    background-position: center center;
+    margin: 0 .5rem;
+}
+
+/* Force the inner anchor link to become a fully clickable layout block */
+.navbar2 .wp-block-navigation-item a.wp-block-navigation-item__content {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    min-width: 2rem; /* Guarantees a minimum clickable width */
+    min-height: 2rem; /* Guarantees a minimum clickable height */
+    cursor: pointer !important;
+    margin-left: -1rem;
+}
+
+.navbar2 .wp-block-navigation-item.social-faa a.wp-block-navigation-item__content {
+    margin-left: 0;
+}
+
+/* 1. Tell the inner container link to map to your Font Awesome style rules */
+.wp-block-navigation-item.fa-brands .wp-block-navigation-item__content,
+.wp-block-navigation-item.fa-solid .wp-block-navigation-item__content,
+.wp-block-navigation-item.fa-regular .wp-block-navigation-item__content {
+    font-family: inherit; /* Dynamically inherits the font families you mapped in theme.json */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 1.25rem; /* Prevents container from collapsing to 0 width */
+}
+
+/* -- pages -- */
+.page-title, .section-title {
+   font-size: 3rem;
+   color: var(--wp--preset--color--primary-500);
+}
+
+.page.lead.subhd, .page.lead.subhd2, .page.subhd, .page.subhd2 {
+    font-size: 1.5rem;
+    font-family: Lato;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: 495057;
+    margin-bottom: .75rem;
+}
+
+/* -- buttons -- */
+.wp-block-button__link:hover {
+    color: var(--wp--preset--color--base);
+    background-color: var(--wp--preset--color--accent-500); 
+}
