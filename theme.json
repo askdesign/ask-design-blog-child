@@ -313,6 +313,51 @@
 					"color": "#2e250a",
 					"name": "accent-3-900",
 					"slug": "custom-accent-3-900"
+				},
+				{
+					"color": "#f8f9fa",
+					"name": "bs-gray-100",
+					"slug": "custom-bs-gray-100"
+				},
+				{
+					"color": "#e9ecef",
+					"name": "bs-gray-200",
+					"slug": "custom-bs-gray-200"
+				},
+				{
+					"color": "#dee2e6",
+					"name": "bs-gray-300",
+					"slug": "custom-bs-gray-300"
+				},
+				{
+					"color": "#ced4da",
+					"name": "bs-gray-400",
+					"slug": "custom-bs-gray-400"
+				},
+				{
+					"color": "#adb5bd",
+					"name": "bs-gray-500",
+					"slug": "custom-bs-gray-500"
+				},
+				{
+					"color": "#6c757d",
+					"name": "bs-gray-600",
+					"slug": "custom-bs-gray-600"
+				},
+				{
+					"color": "#495057",
+					"name": "bs-gray-700",
+					"slug": "custom-bs-gray-700"
+				},
+				{
+					"color": "#343a40",
+					"name": "bs-gray-800",
+					"slug": "custom-bs-gray-800"
+				},
+				{
+					"color": "#212529",
+					"name": "bs-gray-900",
+					"slug": "custom-bs-gray-900"
 				}
 			]
 		},
@@ -551,12 +596,35 @@
 					}
 				}
 			},
+			"core/heading": {
+				"spacing": {
+					"margin": {
+						"right": "0.75rem",
+						"top": "0px"
+					}
+				}
+			},
+			"core/image": {
+				"spacing": {
+					"margin": {
+						"bottom": "1.5rem"
+					}
+				}
+			},
 			"core/navigation": {
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--lato)",
 					"fontSize": "0.94rem",
 					"letterSpacing": "0px",
 					"lineHeight": "1.65"
+				}
+			},
+			"core/paragraph": {
+				"spacing": {
+					"margin": {
+						"bottom": "1.5rem",
+						"top": "0px"
+					}
 				}
 			},
 			"core/post-title": {
@@ -611,6 +679,13 @@
 					"letterSpacing": "0px",
 					"lineHeight": "1"
 				}
+			},
+			"core/video": {
+				"spacing": {
+					"margin": {
+						"bottom": "1.5rem"
+					}
+				}
 			}
 		},
 		"css": "/* -- navigation -- */\n\n.wp-block-navigation .wp-block-navigation-item {\n   padding: .5rem 2.5rem;\n   border: 1px solid transparent;\n   border-right: 1px solid #e9ecef;\n}\n\n.wp-block-navigation .wp-block-navigation-item.last {\n   border-right: 0px solid #e9ecef;\n}\n\n.wp-block-navigation .wp-block-navigation-item:hover,\n.wp-block-navigation .wp-block-navigation-item.current-menu-item {\n    border: 1px solid #6c757d;\n    border-radius: .375rem;\n}\n\na.wp-block-navigation-item__content:hover {\n    text-decoration: none;\n}\n    \nnav.navbar2 {\n    background-color: #e9ecef;\n    border-bottom: 1px solid #ced4da;\n    border-top: 1px solid #ced4da;\n}\n\n.wp-block-navigation .wp-block-navigation-item.fa-brands,\n.wp-block-navigation .wp-block-navigation-item.fa-brands.last {\n   padding: .5rem 1.25rem;\n   border: 0px solid transparent;\n   border-right: 0px solid #e9ecef;\n}\n\n.wp-block-navigation .wp-block-navigation-item.fa-brands.last {\n   padding: 1rem 1.25rem .5rem 0rem;\n}\n\n.wp-block-navigation .wp-block-navigation-item.fa-brands:hover,\n.wp-block-navigation .wp-block-navigation-item.fa-brands.last:hover {\n   color: #000000;\n}\n\n.social-faa {\n    background: url(../wp-content/uploads/2026/08/faa-logo-240-2025-primary700-45.png) no-repeat;\n    background-size: 45%;\n    background-position: center center;\n    margin: 0 .5rem;\n}\n\n.social-faa:hover {\n    background: url(../wp-content/uploads/2026/08/faa-logo-240-2025-black-45.png) no-repeat;\n    background-size: 45%;\n    background-position: center center;\n    margin: 0 .5rem;\n}\n\n/* Force the inner anchor link to become a fully clickable layout block */\n.navbar2 .wp-block-navigation-item a.wp-block-navigation-item__content {\n    display: inline-flex !important;\n    align-items: center;\n    justify-content: center;\n    min-width: 2rem; /* Guarantees a minimum clickable width */\n    min-height: 2rem; /* Guarantees a minimum clickable height */\n    cursor: pointer !important;\n    margin-left: -1rem;\n}\n\n/* dropdown-menu / submenu container */\n.dropdown-header {\n    pointer-events: none;\n}\n\n.dropdown-header.dropdown-divider, .wp-block-navigation .wp-block-navigation-item.dropdown-divider {\n    padding-top: 20px !important;\n    margin-top: 10px;\n    border-top: 1px solid #e9ecef !important;\n}\n\n.wp-block-navigation .wp-block-navigation-item .dropdown-header {\n    font-size: 0.75rem !important;\n    display: block;\n    padding: 1.25rem 1rem .75rem;\n    text-transform: uppercase;\n    color: #6c757d;\n}\n\n.dropdown-item {\n    color: var(--wp--preset--color--custom-primary-600);\n}\n\n.dropdown-item:focus, .dropdown-item:hover {\n    color: var(--wp--preset--color--custom-primary-600);\n    background-color: #f8f9fa;\n}\n\n.wp-block-navigation .has-child .wp-block-navigation__submenu-container>.wp-block-navigation-item>.wp-block-navigation-item__content {\n    padding: 0;\n}\n\n.wp-block-navigation .wp-block-navigation-submenu .wp-block-navigation-item {\n    padding: .75rem 1rem;\n    border: 0px solid #6c757d;\n}\n\n.dropdown-menu,\n.wp-block-navigation .has-child .wp-block-navigation-submenu__toggle[aria-expanded=true]~.wp-block-navigation__submenu-container, .wp-block-navigation .has-child:not(.open-on-click):not(.open-on-hover-click):focus-within>.wp-block-navigation__submenu-container {\n    border-color: #e9ecef;\n    border-top-width: 0px;\n    border-top-left-radius: 0;\n    border-top-right-radius: 0;\n    min-width: 160px;\n}\n\n/* Position the submenu container */\n.wp-block-navigation .has-child .wp-block-navigation__submenu-container {\n    left: -1px;\n    top: calc(100% + 1.5rem);\n}\n\n.wp-block-navigation .has-child .wp-block-navigation__submenu-container::before {\n  content: \"\";\n  position: absolute;\n  top: -1.5rem; /* Matches the exact gap size */\n  left: 0;\n  width: 100%;\n  height: 1.5rem; /* Matches the exact gap size */\n  background: transparent; /* Remains completely invisible */\n}\n\n.navbar2 .wp-block-navigation-item.social-faa a.wp-block-navigation-item__content {\n    margin-left: 0;\n}\n\n.footer-bottom-content-divider {\n    color: #ced4da;\n    font-size: 22px;\n    font-weight: 200;\n    padding-left: .5em;\n    padding-right: .5em;\n}\n\n/* 1. Tell the inner container link to map to your Font Awesome style rules */\n.wp-block-navigation-item.fa-brands .wp-block-navigation-item__content,\n.wp-block-navigation-item.fa-solid .wp-block-navigation-item__content,\n.wp-block-navigation-item.fa-regular .wp-block-navigation-item__content {\n    font-family: inherit; /* Dynamically inherits the font families you mapped in theme.json */\n    display: inline-flex;\n    align-items: center;\n    justify-content: center;\n    min-width: 1.25rem; /* Prevents container from collapsing to 0 width */\n}\n\n/* -- footer -- */\n.footer-bottom-container {\n    background-color: #e9ecef;\n    border-top: 1px solid #ced4da;\n}\n.footer-bottom-content {\n    margin-top: .5rem;\n}\n\n/* -- pages -- */\n.page-title, .section-title {\n   font-size: 3rem;\n   color: var(--wp--preset--color--primary-500);\n}\n\n.page.lead.subhd, .page.lead.subhd2, .page.subhd, .page.subhd2 {\n    font-size: 1.5rem;\n    font-family: Lato;\n    font-weight: 700;\n    text-transform: uppercase;\n    color: 495057;\n    margin-bottom: .75rem;\n}\n\n/* -- buttons -- */\n.wp-block-button__link:hover {\n    color: var(--wp--preset--color--base);\n    background-color: var(--wp--preset--color--accent-500); \n}\n\n/* -- Mailchimp form -- */\nul.mc {\n    list-style-type: none;\n    padding-left: 0;\n}\n\n.input-group {\n    display: block;\n}\n\n/* -- Bootstrap styles used in MC form -- */\n.indicates-required {\nfont-family: var(--wp--preset--font-family--lato);\n    font-size: 14px;\n    text-align: right;\n}\n\n.mc-field-group label, .form-group label {\n    font-size: 1rem;\n}\n\n.mc4wp-form-basic label {\n    font-weight: 400 !important;\n    display: inline-block !important;\n}\n\n.mc-field-group input, .form-group input {\n    width: 100%;\n    height: 38px;\n    background-color: #e9ecef;\n    border: 1px solid #6c757d;\n    border-radius: .375rem;\n}\n\n.form-control {\n    display: block;\n    width: 100%;\n    padding: .375rem .75rem;\n    font-size: 1rem;\n    font-weight: 400;\n    line-height: 1.5;\n    color: var(--wp--preset--color--contrast);\n    -webkit-appearance: none;\n    -moz-appearance: none;\n    appearance: none;\n    background-clip: padding-box;\n    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;\n}\n\n.d-flex {\n    display: flex !important;\n}\n\n.gap-3 {\n    gap: 1rem !important;\n}\n\n.pb-2 {\n    padding-bottom: .5rem !important;\n}\n\n.align-items-center {\n    align-items: center !important;\n}",
@@ -647,24 +722,35 @@
 			},
 			"h3": {
 				"typography": {
-					"fontSize": "1.75rem"
+					"fontSize": "1.75rem",
+					"fontStyle": "normal",
+					"fontWeight": "700",
+					"textTransform": "uppercase"
 				}
 			},
 			"h4": {
 				"typography": {
-					"fontSize": "1.5rem"
+					"fontSize": "1.5rem",
+					"fontStyle": "normal",
+					"fontWeight": "700",
+					"textTransform": "uppercase"
 				}
 			},
 			"h5": {
 				"typography": {
-					"fontSize": "1.25rem"
+					"fontSize": "1.25rem",
+					"fontStyle": "normal",
+					"fontWeight": "700",
+					"textTransform": "uppercase"
 				}
 			},
 			"h6": {
 				"typography": {
 					"fontSize": "1rem",
+					"fontStyle": "normal",
+					"fontWeight": "700",
 					"letterSpacing": "0.5px",
-					"textTransform": "none"
+					"textTransform": "uppercase"
 				}
 			},
 			"heading": {

@@ -65,14 +65,14 @@ nav.navbar2 {
 }
 
 .social-faa {
-    background: url(../wp-content/uploads/2026/08/faa-logo-240-2025-primary700-e1786043962997.png) no-repeat;
+    background: url(../wp-content/uploads/2026/08/faa-logo-240-2025-primary700-45.png) no-repeat;
     background-size: 45%;
     background-position: center center;
     margin: 0 .5rem;
 }
 
 .social-faa:hover {
-    background: url(../wp-content/uploads/2026/08/faa-logo-240-2025-black-e1786043973549.png) no-repeat;
+    background: url(../wp-content/uploads/2026/08/faa-logo-240-2025-black-45.png) no-repeat;
     background-size: 45%;
     background-position: center center;
     margin: 0 .5rem;
@@ -99,7 +99,6 @@ nav.navbar2 {
     margin-top: 10px;
     border-top: 1px solid #e9ecef !important;
 }
-
 
 .wp-block-navigation .wp-block-navigation-item .dropdown-header {
     font-size: 0.75rem !important;
@@ -181,7 +180,7 @@ nav.navbar2 {
     border-top: 1px solid #ced4da;
 }
 .footer-bottom-content {
-    margin-top: .5rem;
+    margin-bottom: .5rem;
 }
 
 /* -- pages -- */
@@ -199,8 +198,77 @@ nav.navbar2 {
     margin-bottom: .75rem;
 }
 
+h3 {
+    color: var(--wp--preset--color--custom-primary-600) !important;
+}
+
 /* -- buttons -- */
 .wp-block-button__link:hover {
     color: var(--wp--preset--color--base);
     background-color: var(--wp--preset--color--accent-500); 
+}
+
+/* -- Mailchimp form -- */
+ul.mc {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.input-group {
+    display: block;
+}
+
+/* -- Bootstrap styles used in MC form -- */
+.indicates-required {
+font-family: var(--wp--preset--font-family--lato);
+    font-size: 14px;
+    text-align: right;
+}
+
+.mc-field-group label, .form-group label {
+    font-size: 1rem;
+}
+
+.mc4wp-form-basic label {
+    font-weight: 400 !important;
+    display: inline-block !important;
+}
+
+.mc-field-group input, .form-group input {
+    width: 100%;
+    height: 38px;
+    background-color: #e9ecef;
+    border: 1px solid #6c757d;
+    border-radius: .375rem;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--wp--preset--color--contrast);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-clip: padding-box;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.gap-3 {
+    gap: 1rem !important;
+}
+
+.pb-2 {
+    padding-bottom: .5rem !important;
+}
+
+.align-items-center {
+    align-items: center !important;
 }
