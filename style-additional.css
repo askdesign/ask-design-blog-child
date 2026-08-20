@@ -229,6 +229,17 @@ font-family: var(--wp--preset--font-family--lato);
     font-size: 1rem;
 }
 
+.subscription-box {
+    padding: 40px;
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.mc4wp-form-basic input[type=text], .mc4wp-form-basic input[type=email], .mc4wp-form-basic input[type=tel], .mc4wp-form-basic input[type=url], .mc4wp-form-basic input[type=date], .mc4wp-form-basic textarea, .mc4wp-form-basic select {
+    max-width: 100% !important;
+    height: 38px;
+}
+
 .mc4wp-form-basic label {
     font-weight: 400 !important;
     display: inline-block !important;
@@ -265,6 +276,10 @@ font-family: var(--wp--preset--font-family--lato);
     gap: 1rem !important;
 }
 
+.mt-3 {
+    margin-top: 1rem !important;
+}
+
 .pb-2 {
     padding-bottom: .5rem !important;
 }
@@ -272,3 +287,4 @@ font-family: var(--wp--preset--font-family--lato);
 .align-items-center {
     align-items: center !important;
 }
+
