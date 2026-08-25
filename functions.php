@@ -14,6 +14,7 @@
  * @since 1.0.0
  */
 
+// Font Awesome
 function enqueue_optimized_fontawesome_7() {
     $fa_base_url = get_theme_file_uri( 'assets/fontawesome/css/' );
 
@@ -38,3 +39,4 @@ function enqueue_optimized_fontawesome_7() {
 }
 add_action( 'wp_enqueue_scripts', 'enqueue_optimized_fontawesome_7' );
 add_action( 'enqueue_block_editor_assets', 'enqueue_optimized_fontawesome_7' );
+

@@ -203,7 +203,20 @@ h3 {
 }
 
 /* -- buttons -- */
-.wp-block-button__link:hover {
+.ask-button, 
+.wp-block-search .wp-element-button, .wp-block-search .wp-block-button__link {
+    background-color: var(--wp--preset--color--base);
+    border: 1px solid var(--wp--preset--color--custom-accent-200);
+    border-radius: .38rem;
+    color: var(--wp--preset--color--accent-500);
+    font-size: clamp(0.984rem, 0.984rem + ((1vw - 0.2rem) * 0.826), 1.5rem);
+    padding: .5rem 2.5rem;
+    text-transform: uppercase;
+}
+
+.wp-block-button__link:hover,
+.ask-button:hover,
+.wp-block-search .wp-element-button:hover, .wp-block-search .wp-block-button__link:hover {
     color: var(--wp--preset--color--base);
     background-color: var(--wp--preset--color--accent-500); 
 }
@@ -288,3 +301,11 @@ font-family: var(--wp--preset--font-family--lato);
     align-items: center !important;
 }
 
+/* -- Search plugin -- */
+.is-ajax-search-details .is-title a, .is-ajax-search-post .is-title a {
+    font-size: 16px;
+}
+
+.is-ajax-search-details, .is-ajax-search-details *, .is-ajax-search-result, .is-ajax-search-result * {
+    font-size: 16px;
+}
