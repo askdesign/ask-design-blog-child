@@ -202,8 +202,15 @@ h3 {
     color: var(--wp--preset--color--custom-primary-600) !important;
 }
 
+/* -- links -- */
+
+:root :where(a:where(:not(.wp-element-button)):hover) {
+    color: var(--wp--preset--color--custom-accent-700);
+    text-decoration: underline;
+}
+
 /* -- buttons -- */
-.ask-button, 
+/* .ask-button, 
 .wp-block-search .wp-element-button, .wp-block-search .wp-block-button__link {
     background-color: var(--wp--preset--color--base);
     border: 1px solid var(--wp--preset--color--custom-accent-200);
@@ -219,7 +226,7 @@ h3 {
 .wp-block-search .wp-element-button:hover, .wp-block-search .wp-block-button__link:hover {
     color: var(--wp--preset--color--base);
     background-color: var(--wp--preset--color--accent-500); 
-}
+} */
 
 /* -- Mailchimp form -- */
 ul.mc {
