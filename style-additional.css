@@ -202,6 +202,26 @@ h3 {
     color: var(--wp--preset--color--custom-primary-600) !important;
 }
 
+/* -- dividers / separators -- */
+.divider {
+    clear: both;
+    display: block;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0;
+    width: 100%;
+    border-top: 1px solid var(--wp--preset--color--custom-primary-200);
+}
+
+hr.wp-block-separator {
+    border-color: var(--wp--preset--color--custom-primary-200);
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    color: var(--wp--preset--color--custom-primary-200);
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
 /* -- links -- */
 
 :root :where(a:where(:not(.wp-element-button)):hover) {
