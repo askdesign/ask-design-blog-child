@@ -50,13 +50,13 @@ nav.navbar2 {
 
 .wp-block-navigation .wp-block-navigation-item.fa-brands,
 .wp-block-navigation .wp-block-navigation-item.fa-brands.last {
-   padding: .5rem 1.25rem;
+   padding: .5rem 1rem;
    border: 0px solid transparent;
    border-right: 0px solid #e9ecef;
 }
 
 .wp-block-navigation .wp-block-navigation-item.fa-brands.last {
-   padding: 1rem 1.25rem .5rem 0rem;
+   padding: .5rem 1rem .5rem 0;
 }
 
 .wp-block-navigation .wp-block-navigation-item.fa-brands:hover,
@@ -65,14 +65,15 @@ nav.navbar2 {
 }
 
 .social-faa {
-    background: url(../wp-content/uploads/2026/08/faa-logo-240-2025-primary700-45.png) no-repeat;
+    background: url(https://www.askdesign.biz/blog/wp-content/uploads/2026/08/faa-logo-240-2025-primary700-45.png
+) no-repeat;
     background-size: 45%;
     background-position: center center;
     margin: 0 .5rem;
 }
 
 .social-faa:hover {
-    background: url(../wp-content/uploads/2026/08/faa-logo-240-2025-black-45.png) no-repeat;
+    background: url(https://www.askdesign.biz/blog/wp-content/uploads/2026/08/faa-logo-240-2025-black-45.png) no-repeat;
     background-size: 45%;
     background-position: center center;
     margin: 0 .5rem;
@@ -83,8 +84,8 @@ nav.navbar2 {
     display: inline-flex !important;
     align-items: center;
     justify-content: center;
-    min-width: 2rem; /* Guarantees a minimum clickable width */
-    min-height: 2rem; /* Guarantees a minimum clickable height */
+    min-width: 1rem; /* Guarantees a minimum clickable width */
+    min-height: 1rem; /* Guarantees a minimum clickable height */
     cursor: pointer !important;
     margin-left: -1rem;
 }
