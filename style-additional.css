@@ -28,14 +28,20 @@ Tags:
    border-right: 1px solid #e9ecef;
 }
 
-.wp-block-navigation .wp-block-navigation-item.last {
+.wp-block-navigation .wp-block-navigation-item.last,
+.wp-block-navigation .wp-block-navigation-item.dropdown-item {
    border-right: 0px solid #e9ecef;
 }
 
-.wp-block-navigation .wp-block-navigation-item:hover,
-.wp-block-navigation .wp-block-navigation-item.current-menu-item {
-    border: 1px solid #6c757d;
-    border-radius: .375rem;
+/* -- Style active states, hovers, and tie the blog link to home, blog index, and single posts -- */
+.wp-block-navigation .wp-block-navigation-item.current-menu-item,
+.wp-block-navigation .wp-block-navigation-item.current-menu-parent,
+.home .wp-block-navigation .wp-block-navigation-item.blog-parent-1,
+.blog .wp-block-navigation .wp-block-navigation-item.blog-parent-1,
+.wp-singular .wp-block-navigation .wp-block-navigation-item.blog-parent-1,
+.archive .wp-block-navigation .wp-block-navigation-item.blog-parent-1 { 
+    border: 1px solid #6c757d; 
+    border-radius: .375rem; 
 }
 
 a.wp-block-navigation-item__content:hover {
@@ -50,13 +56,14 @@ nav.navbar2 {
 
 .wp-block-navigation .wp-block-navigation-item.fa-brands,
 .wp-block-navigation .wp-block-navigation-item.fa-brands.last {
-   padding: .5rem 1.25rem;
+   padding: .5rem 1rem;
    border: 0px solid transparent;
    border-right: 0px solid #e9ecef;
+   font-size: 20px;
 }
 
 .wp-block-navigation .wp-block-navigation-item.fa-brands.last {
-   padding: 1rem 1.25rem .5rem 0rem;
+   padding: .5rem 1rem .5rem 0;
 }
 
 .wp-block-navigation .wp-block-navigation-item.fa-brands:hover,
@@ -65,14 +72,15 @@ nav.navbar2 {
 }
 
 .social-faa {
-    background: url(../wp-content/uploads/2026/08/faa-logo-240-2025-primary700-45.png) no-repeat;
+    background: url(https://www.askdesign.biz/blog/wp-content/uploads/2026/08/faa-logo-240-2025-primary700-45.png
+) no-repeat;
     background-size: 45%;
     background-position: center center;
     margin: 0 .5rem;
 }
 
 .social-faa:hover {
-    background: url(../wp-content/uploads/2026/08/faa-logo-240-2025-black-45.png) no-repeat;
+    background: url(https://www.askdesign.biz/blog/wp-content/uploads/2026/08/faa-logo-240-2025-black-45.png) no-repeat;
     background-size: 45%;
     background-position: center center;
     margin: 0 .5rem;
@@ -83,8 +91,8 @@ nav.navbar2 {
     display: inline-flex !important;
     align-items: center;
     justify-content: center;
-    min-width: 2rem; /* Guarantees a minimum clickable width */
-    min-height: 2rem; /* Guarantees a minimum clickable height */
+    min-width: 1rem; /* Guarantees a minimum clickable width */
+    min-height: 1rem; /* Guarantees a minimum clickable height */
     cursor: pointer !important;
     margin-left: -1rem;
 }
@@ -112,19 +120,52 @@ nav.navbar2 {
     color: var(--wp--preset--color--custom-primary-600);
 }
 
-.dropdown-item:focus, .dropdown-item:hover {
+/* .dropdown-item:focus, .dropdown-item:hover {
     color: var(--wp--preset--color--custom-primary-600);
     background-color: #f8f9fa;
-}
+} */
 
-.wp-block-navigation .has-child .wp-block-navigation__submenu-container>.wp-block-navigation-item>.wp-block-navigation-item__content {
+.wp-block-navigation .wp-block-navigation-submenu .wp-block-navigation-item, .wp-block-navigation .wp-block-navigation-submenu .wp-block-navigation-item:hover {
     padding: 0;
+    border: 0px solid #6c757d;
 }
 
+/* .wp-block-navigation .wp-block-navigation-submenu .wp-block-navigation-item:hover {
+    background-color: #f8f9fa;
+} */
+
+/*     
 .wp-block-navigation .wp-block-navigation-submenu .wp-block-navigation-item {
     padding: .75rem 1rem;
     border: 0px solid #6c757d;
+} */
+
+.wp-block-navigation .has-child .wp-block-navigation__submenu-container>.wp-block-navigation-item>.wp-block-navigation-item__content,
+.wp-block-navigation .has-child .wp-block-navigation__submenu-container>.wp-block-navigation-item>.wp-block-navigation-item__content:hover {
+    padding: .75rem 1rem;
+    border: 0px solid #6c757d;
+    color: var(--wp--preset--color--custom-primary-600);
+    color: inherit;
+    background-color: #ffffff;
 }
+
+.wp-block-navigation .has-child .wp-block-navigation__submenu-container>.wp-block-navigation-item>.wp-block-navigation-item__content:hover {
+    border: 0px solid #f8f9fa;
+    background-color: #f8f9fa;
+}
+
+/* -- trying new code here -- */
+.wp-block-navigation .has-child .wp-block-navigation__submenu-container > .wp-block-navigation-item > .wp-block-navigation-item__content[aria-current="page"] {
+    border: 0px solid #6c757d !important;
+    background-color: #6c757d !important;
+    color: #ffffff !important;
+}
+
+/* .wp-block-navigation .has-child .wp-block-navigation__submenu-container>.wp-block-navigation-item>.wp-block-navigation-item__content {
+    padding: 0;
+}
+ */
+ 
 
 .dropdown-menu,
 .wp-block-navigation .has-child .wp-block-navigation-submenu__toggle[aria-expanded=true]~.wp-block-navigation__submenu-container, .wp-block-navigation .has-child:not(.open-on-click):not(.open-on-hover-click):focus-within>.wp-block-navigation__submenu-container {
@@ -134,6 +175,10 @@ nav.navbar2 {
     border-top-right-radius: 0;
     min-width: 160px;
 }
+
+/* Target the link inside the active submenu item and override theme utilities */
+
+
 
 /* Position the submenu container */
 .wp-block-navigation .has-child .wp-block-navigation__submenu-container {
@@ -220,6 +265,12 @@ hr.wp-block-separator {
     color: var(--wp--preset--color--custom-primary-200);
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;
+}
+
+/* -- quotes -- */
+.citation {
+   font-family: var(--wp--preset--font-family--lato);
+   font-style: normal;
 }
 
 /* -- links -- */
@@ -335,4 +386,22 @@ font-family: var(--wp--preset--font-family--lato);
 
 .is-ajax-search-details, .is-ajax-search-details *, .is-ajax-search-result, .is-ajax-search-result * {
     font-size: 16px;
+}
+
+/* -- MEDIA QUERIES - Bootstrap & Google (G) breakpoints -- */
+
+/* -- `md` applies to small devices (landscape phones, less than 768px) & Table (G) -- */
+@media (max-width: 768px) {
+
+}
+
+/* -- Generic (G) -- */
+@media (max-width: 600px) {
+
+.wp-block-navigation .wp-block-navigation-item {
+    padding: .5rem 2.5rem;
+    border: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+
 }
