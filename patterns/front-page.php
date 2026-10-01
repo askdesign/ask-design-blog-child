@@ -183,15 +183,15 @@
 
 <!-- wp:columns {"verticalAlignment":"bottom","align":"wide"} -->
 <div class="wp-block-columns alignwide are-vertically-aligned-bottom"><!-- wp:column {"verticalAlignment":"bottom"} -->
-<div class="wp-block-column is-vertically-aligned-bottom"><!-- wp:heading {"level":5,"style":{"typography":{"textTransform":"capitalize"}}} -->
-<h5 class="wp-block-heading" style="text-transform:capitalize"><em><a href="https://amzn.to/3QCjevB" target="_blank" rel="noopener">Breast Cancer &amp; Beyond: An Unexpected Soul Path</a></em></h5>
+<div class="wp-block-column is-vertically-aligned-bottom"><!-- wp:heading {"level":5,"style":{"typography":{"textTransform":"none","textAlign":"center"}}} -->
+<h5 class="wp-block-heading has-text-align-center" style="text-transform:none"><em><a href="https://amzn.to/3QCjevB" target="_blank" rel="noopener">Breast Cancer &amp; Beyond: </a></em><br><em><a href="https://amzn.to/3QCjevB" target="_blank" rel="noopener">An Unexpected Soul Path</a></em></h5>
 <!-- /wp:heading -->
 
 <!-- wp:image {"lightbox":{"enabled":false},"sizeSlug":"large","linkDestination":"custom"} -->
-<figure class="wp-block-image size-large"><a href="https://amzn.to/3QCjevB" target="_blank" rel=" noopener"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/kornegger-breastcancerbeyond-cover-ofcp-kdp-front-388x600.jpg" alt="Kornegger book: Breast Cancer &amp; Beyond" class=""/></a></figure>
+<figure class="wp-block-image size-large"><a href="https://amzn.to/3QCjevB" target="_blank" rel=" noopener"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/kornegger-breastcancerbeyond-cover-ofcp-kdp-front-388x600.jpg" alt="Kornegger book: Breast Cancer &amp; Beyond"/></a></figure>
 <!-- /wp:image -->
 
-<!-- wp:buttons -->
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
 <div class="wp-block-buttons"><!-- wp:button {"fontSize":"medium"} -->
 <div class="wp-block-button"><a class="wp-block-button__link has-medium-font-size has-custom-font-size wp-element-button" href="https://amzn.to/3QCjevB">BUY THE BOOK!</a></div>
 <!-- /wp:button --></div>
@@ -199,15 +199,15 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"bottom"} -->
-<div class="wp-block-column is-vertically-aligned-bottom"><!-- wp:heading {"level":5,"style":{"typography":{"textTransform":"capitalize"}}} -->
-<h5 class="wp-block-heading" style="text-transform:capitalize"><em><a href="https://amzn.to/4zxv7bc" target="_blank" rel="noreferrer noopener">Inside the Rainbow: Soul Connection in Nature</a></em></h5>
+<div class="wp-block-column is-vertically-aligned-bottom"><!-- wp:heading {"level":5,"style":{"typography":{"textTransform":"none","textAlign":"center"}}} -->
+<h5 class="wp-block-heading has-text-align-center" style="text-transform:none"><em><a href="https://amzn.to/4zxv7bc" target="_blank" rel="noreferrer noopener">Inside the Rainbow: </a></em><br><em><a href="https://amzn.to/4zxv7bc" target="_blank" rel="noreferrer noopener">Soul Connection in Nature</a></em></h5>
 <!-- /wp:heading -->
 
 <!-- wp:image {"lightbox":{"enabled":false},"sizeSlug":"large","linkDestination":"custom"} -->
-<figure class="wp-block-image size-large"><a href="https://amzn.to/4zxv7bc" target="_blank" rel=" noopener"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/kornegger-rainbow-cover-ofcp-kdp-front-388x600.jpg" alt="Kornegger book: Inside the Rainbow" class=""/></a></figure>
+<figure class="wp-block-image size-large"><a href="https://amzn.to/4zxv7bc" target="_blank" rel=" noopener"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/kornegger-rainbow-cover-ofcp-kdp-front-388x600.jpg" alt="Kornegger book: Inside the Rainbow"/></a></figure>
 <!-- /wp:image -->
 
-<!-- wp:buttons -->
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
 <div class="wp-block-buttons"><!-- wp:button {"fontSize":"medium"} -->
 <div class="wp-block-button"><a class="wp-block-button__link has-medium-font-size has-custom-font-size wp-element-button" href="https://amzn.to/4zxv7bc" target="_blank" rel="noreferrer noopener">BUY THE BOOK!</a></div>
 <!-- /wp:button --></div>
@@ -215,15 +215,15 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"bottom"} -->
-<div class="wp-block-column is-vertically-aligned-bottom"><!-- wp:heading {"level":5,"style":{"typography":{"textTransform":"capitalize"}}} -->
-<h5 class="wp-block-heading" style="text-transform:capitalize"><em><a href="https://amzn.to/4hHQpwl" target="_blank" rel="noopener">Lose Your Mind, Open Your Heart: Limitless Love on an Evolving Planet</a></em></h5>
+<div class="wp-block-column is-vertically-aligned-bottom"><!-- wp:heading {"level":5,"style":{"typography":{"textTransform":"none","textAlign":"center"}}} -->
+<h5 class="wp-block-heading has-text-align-center" style="text-transform:none"><em><a href="https://amzn.to/4hHQpwl" target="_blank" rel="noopener">Lose Your Mind, Open Your Heart: Limitless Love on an Evolving Planet</a></em></h5>
 <!-- /wp:heading -->
 
 <!-- wp:image {"lightbox":{"enabled":false},"sizeSlug":"large","linkDestination":"custom"} -->
-<figure class="wp-block-image size-large"><a href="https://amzn.to/4hHQpwl" target="_blank" rel=" noopener"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/kornegger-loseyourmind-cover-reprint-ofcp-kdp-front-388x600.jpg" alt="Kornegger book: loseyourmind front cover" class=""/></a></figure>
+<figure class="wp-block-image size-large"><a href="https://amzn.to/4hHQpwl" target="_blank" rel=" noopener"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/kornegger-loseyourmind-cover-reprint-ofcp-kdp-front-388x600.jpg" alt="Kornegger book: loseyourmind front cover"/></a></figure>
 <!-- /wp:image -->
 
-<!-- wp:buttons -->
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
 <div class="wp-block-buttons"><!-- wp:button {"fontSize":"medium"} -->
 <div class="wp-block-button"><a class="wp-block-button__link has-medium-font-size has-custom-font-size wp-element-button" href="https://amzn.to/4hHQpwl" target="_blank" rel="noreferrer noopener">BUY THE BOOK!</a></div>
 <!-- /wp:button --></div>
@@ -231,15 +231,15 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"bottom"} -->
-<div class="wp-block-column is-vertically-aligned-bottom"><!-- wp:heading {"level":5,"style":{"typography":{"textTransform":"capitalize"}}} -->
-<h5 class="wp-block-heading" style="text-transform:capitalize"><em><a href="https://amzn.to/3vzI1on" target="_blank" rel="noreferrer noopener">Living with Spirit: Journey of a Flower Child</a></em></h5>
+<div class="wp-block-column is-vertically-aligned-bottom"><!-- wp:heading {"level":5,"style":{"typography":{"textTransform":"none","textAlign":"center"}}} -->
+<h5 class="wp-block-heading has-text-align-center" style="text-transform:none"><em><a href="https://amzn.to/3vzI1on" target="_blank" rel="noreferrer noopener">Living with Spirit: Journey of a Flower Child</a></em></h5>
 <!-- /wp:heading -->
 
 <!-- wp:image {"lightbox":{"enabled":false},"sizeSlug":"large","linkDestination":"custom"} -->
-<figure class="wp-block-image size-large"><a href="https://amzn.to/3vzI1on" target="_blank" rel=" noopener"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/kornegger-livingwithspirit-cover-reprint-ofcp-kdp-front-388x600.jpg" alt="Living with Spirit: Journey of a Flower Child, by Peggy Kornegger" class=""/></a></figure>
+<figure class="wp-block-image size-large"><a href="https://amzn.to/3vzI1on" target="_blank" rel=" noopener"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/kornegger-livingwithspirit-cover-reprint-ofcp-kdp-front-388x600.jpg" alt="Living with Spirit: Journey of a Flower Child, by Peggy Kornegger"/></a></figure>
 <!-- /wp:image -->
 
-<!-- wp:buttons -->
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
 <div class="wp-block-buttons"><!-- wp:button {"fontSize":"medium"} -->
 <div class="wp-block-button"><a class="wp-block-button__link has-medium-font-size has-custom-font-size wp-element-button" href="https://amzn.to/3vzI1on" target="_blank" rel="noreferrer noopener">BUY THE BOOK!</a></div>
 <!-- /wp:button --></div>

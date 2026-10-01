@@ -17,13 +17,6 @@ Tags:
 
 /* Theme customization starts here
 -------------------------------------------------------------- */
-/* -- TEST the loading this file -- */
-
-/* Temporary Test Style */
-/* body {
-    border: 10px solid red !important;
-}
- */
 
 /* --- Additional CSS --- */
 
@@ -204,14 +197,6 @@ nav.navbar2 {
     margin-left: 0;
 }
 
-.footer-bottom-content-divider {
-    color: #ced4da;
-    font-size: 22px;
-    font-weight: 200;
-    padding-left: .5em;
-    padding-right: .5em;
-}
-
 /* 1. Tell the inner container link to map to your Font Awesome style rules */
 .wp-block-navigation-item.fa-brands .wp-block-navigation-item__content,
 .wp-block-navigation-item.fa-solid .wp-block-navigation-item__content,
@@ -225,11 +210,28 @@ nav.navbar2 {
 
 /* -- footer -- */
 .footer-bottom-container {
-    background-color: #e9ecef;
-    border-top: 1px solid #ced4da;
+    background-color: var(--wp--preset--color--custom-bs-gray-200);
+    border-top: 1px solid var(--wp--preset--color--custom-bs-gray-400);
 }
-.footer-bottom-content {
-    margin-bottom: .5rem;
+
+.footer-bottom-content-divider {
+    color: #ced4da;
+    font-size: 22px;
+    font-weight: 200;
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+.brand-small {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    border-left: 1px solid var(--wp--preset--color--custom-bs-gray-400);
+    border-right: 1px solid var(--wp--preset--color--custom-bs-gray-400);
+}
+
+.policies {
+    text-align: right;
 }
 
 /* -- pages -- */
@@ -256,7 +258,7 @@ h3 {
 .divider {
     clear: both;
     display: block;
-    margin-top: 1.25rem;
+    margin-top: 2.5rem;
     margin-bottom: 1.25rem;
     padding-bottom: 0;
     width: 100%;
@@ -286,23 +288,7 @@ hr.wp-block-separator {
 }
 
 /* -- buttons -- */
-/* .ask-button, 
-.wp-block-search .wp-element-button, .wp-block-search .wp-block-button__link {
-    background-color: var(--wp--preset--color--base);
-    border: 1px solid var(--wp--preset--color--custom-accent-200);
-    border-radius: .38rem;
-    color: var(--wp--preset--color--accent-500);
-    font-size: clamp(0.984rem, 0.984rem + ((1vw - 0.2rem) * 0.826), 1.5rem);
-    padding: .5rem 2.5rem;
-    text-transform: uppercase;
-}
 
-.wp-block-button__link:hover,
-.ask-button:hover,
-.wp-block-search .wp-element-button:hover, .wp-block-search .wp-block-button__link:hover {
-    color: var(--wp--preset--color--base);
-    background-color: var(--wp--preset--color--accent-500); 
-} */
 
 /* -- Mailchimp form -- */
 ul.mc {
@@ -393,11 +379,73 @@ font-family: var(--wp--preset--font-family--lato);
     font-size: 16px;
 }
 
+/* -- Navigation breakpoints -- */
+/* 1. Global / Mobile State: Force the hamburger menu by default */
+body .wp-block-navigation__responsive-container-open:not(.always-shown) {
+	display: block !important;
+}
+body .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) {
+	display: none !important;
+}
+
+.wp-block-navigation:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open:not(.disable-default-overlay) {
+    background-color: var(--wp--preset--color--custom-bs-gray-200);
+}
+
+/* 2. Desktop State: Restore normal row layout & click-dropdown behavior at 960px */
+@media (min-width: 961px) {
+	body .wp-block-navigation__responsive-container-open:not(.always-shown) {
+		display: none !important;;
+	}
+	body .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) {
+		display: block !important;
+	}
+}
 
 /* -- MEDIA QUERIES - Bootstrap & Google (G) breakpoints -- */
 
+/* -- laptop (G) -- */
+@media (max-width: 1024px) {
+
+.wp-block-button .wp-block-button__link.has-medium-font-size {
+    padding-top: 0.5rem;
+    padding-right: 1.25rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.25rem;
+}
+
+}
+
+
+/* -- Mobile device (G) -- */
+@media (max-width: 960px) {
+
+
+.footer-bottom-content.is-layout-flex {
+    display: block;
+}
+
+.copyright, .policies {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.policies {
+    padding-bottom: 0;
+}
+
+.brand-small {
+    padding-bottom: 40px;
+    border-left: 0px solid var(--wp--preset--color--custom-bs-gray-400);
+    border-right: 0px solid var(--wp--preset--color--custom-bs-gray-400);
+}
+
+}
+
+
 /* -- `md` applies to small devices (landscape phones, less than 768px) & Table (G) -- */
 @media (max-width: 768px) {
+
 
 }
 
